@@ -1,0 +1,22 @@
+{
+  "name": "pug-postcss-website-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShinyaFurumata/pug-postcss-website-template.git"
+  },
+  "author": "shinyafurumata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShinyaFurumata/pug-postcss-website-template/issues"
+  },
+  "homepage": "https://github.com/ShinyaFurumata/pug-postcss-website-template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
