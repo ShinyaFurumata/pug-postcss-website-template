@@ -1,15 +1,15 @@
-// base
+/* base */
 @import "base/color";
 @import "base/normalize";
 @import "base/default";
-@import "base/utillity";
+@import "base/utility";
 
-// layout
+/* layout */
 @import "layout/layout";
 
-// module
+/* module */
 @import "module/m-module";
 
-// page
+/* page */
 @import "page/page-name";
 @import "page/top";

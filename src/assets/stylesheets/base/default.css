@@ -68,9 +68,9 @@ a {
       -webkit-opacity: .7;
       -moz-opacity: .7;
       filter: alpha(opacity = 50);
-      // IE lt 8
       -ms-filter: "alpha(opacity=50)";
-      // IE 8
+    }
+  }
   img {
     -webkit-transition: opacity 1s ease-out;
     transition: opacity 1s ease-out;
