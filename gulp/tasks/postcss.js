@@ -26,7 +26,9 @@ gulp.task('css', () => {
     './src/assets/stylesheets/style.css'
   ])
     .pipe($.plumber({errorHandler: $.notify.onError('<%= error.message %>')}))
+    .pipe($.sourcemaps.init())
     .pipe($.postcss(plugins))
+    .pipe($.sourcemaps.write('.'))
     .pipe(gulp.dest('./dist/css'))
     .pipe(browserSync.stream());
 });

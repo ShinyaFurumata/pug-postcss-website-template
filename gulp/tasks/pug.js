@@ -18,6 +18,11 @@ gulp.task('pug', () => {
     './src/pug/**/*.pug',
     '!./src/pug/**/_*.pug'
   ])
+/*
+    .pipe($.changed('./dist/', {
+      extension: '.html',
+    }))
+*/
     .pipe($.plumber({errorHandler: $.notify.onError('<%= error.message %>')}))
     .pipe($.pug({
       pretty: true
