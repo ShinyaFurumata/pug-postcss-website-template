@@ -3,6 +3,7 @@
 @import "base/reset";
 @import "base/default";
 @import "base/utility";
+@import "base/vars";
 
 /* layout */
 @import "layout/layout";
