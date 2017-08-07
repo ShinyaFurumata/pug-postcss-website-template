@@ -18,12 +18,13 @@ html, body {
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
-
+/*
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
   body {
     font-size: 75%;
   }
 }
+*/
 
 /*--------------------------------------------------------------------------
  *	 elements;
